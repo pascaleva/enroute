@@ -1,0 +1,31 @@
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+img {
+  width:100%;
+  max-width:auto !important;
+}
+
+.margin-all{
+  height:100vh;
+  padding:0.6rem;
+}
+
+.limmatplatz87 {
+  background-image: url(../img/1987_ganz.jpg);
+  height:100%;
+  background-size:cover;
+  background-position: center;
+}
+
+.limmatplatz17 {
+  background-image: url(../img/2017_ganz.jpg);
+  height:100%;
+  background-size:cover;
+  background-position: center;
+}
+
+.grid-margin-y {
+  margin-top: 500px;
+}
