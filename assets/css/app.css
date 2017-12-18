@@ -1,5 +1,6 @@
 body {
   font-family: 'Heebo', sans-serif;
+  font-weight: 400;
 }
 
 img {
@@ -26,6 +27,25 @@ img {
   background-position: center;
 }
 
-.grid-margin-y {
-  margin-top: 500px;
+.margin-top {
+  margin-top:30.5rem;
+}
+
+.margin-diagonal {
+  margin-top:1.5rem;
+}
+
+h3 {
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.zahl-links {
+margin-left:4.6rem
+/*margin-top:3rem;*/
+}
+
+.title-mark {
+  width:50%;
+  margin:0 auto;
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>back_up_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1.0_einstieg-copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1148.000000, -23.000000)">
+        <g id="back_up_icon" transform="translate(1148.000000, 23.000000)" fill="#000000">
+            <path d="M0,20 L20,20 L20,0 L0,0 L0,20 Z M0.625,19.375 L19.375,19.375 L19.375,0.625 L0.625,0.625 L0.625,19.375 Z" id="Fill-1"></path>
+            <polygon id="Fill-2" points="9.67484375 6.3644375 7.17484375 8.9100625 7.61671875 9.3750625 9.58328125 7.4313125 9.58328125 14.4894375 10.2082813 14.4894375 10.2082813 7.4313125 12.1748438 9.397875 12.6170313 8.9100625 10.1167188 6.3644375"></polygon>
+        </g>
+    </g>
+</svg>
