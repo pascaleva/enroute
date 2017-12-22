@@ -31,21 +31,68 @@ img {
   margin-top:30.5rem;
 }
 
-.margin-diagonal {
-  margin-top:1.5rem;
+.padding-versatz {
+  padding:1.25rem 0  0 0.625rem;
 }
 
 h3 {
   font-size: 0.8125rem;
   font-weight: 400;
+  margin:0;
+  line-height:130%;
+}
+
+.das-projekt {
+  padding:1.9rem 0 0 1.9rem;
+}
+
+.home {
+  padding:1.9rem 0 0 1.2rem;
 }
 
 .zahl-links {
-margin-left:4.6rem
-/*margin-top:3rem;*/
+padding:1rem 0 0 4.5rem
 }
 
 .title-mark {
-  width:50%;
+  width:45%;
   margin:0 auto;
+  padding:4rem 0 0 0;
+}
+
+.gutter-links {
+  padding-right:0.625rem;
+}
+
+.zahl-rechts {
+  padding:0 0 0 0.25rem;
+}
+
+.details-entdecken {
+  margin:0 auto;
+  padding:3rem 0 0 0;
+  width:10%;
+}
+
+.scroll-icon {
+  margin:0 auto;
+  padding:0.1rem 0 7rem 0;
+  width:1%;
+}
+
+.detail1-image17 {
+  padding:1.25rem 0 2.5rem 1.25rem;
+
+}
+
+.detail1-text {
+  padding:1.25rem 0 0 0;
+}
+
+h1 {
+  font-size: 15.2rem;
+  font-weight: 400;
+  margin:0;
+  line-height:78%;
+  text-align: right;
 }
