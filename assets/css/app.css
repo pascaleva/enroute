@@ -32,10 +32,10 @@ img {
 }
 
 .padding-versatz {
-  padding:1.25rem 0  0 0.625rem;
+  padding:1.25rem 0  0 0.5rem;
 }
 
-h3 {
+h4 {
   font-size: 0.8125rem;
   font-weight: 400;
   margin:0;
@@ -43,11 +43,11 @@ h3 {
 }
 
 .das-projekt {
-  padding:1.9rem 0 0 1.9rem;
+  padding:2rem 0 0 2rem;
 }
 
 .home {
-  padding:1.9rem 0 0 1.2rem;
+  padding:2rem 0 0 1rem;
 }
 
 .zahl-links {
@@ -61,7 +61,7 @@ padding:1rem 0 0 4.5rem
 }
 
 .gutter-links {
-  padding-right:0.625rem;
+  padding-right:0.5rem;
 }
 
 .zahl-rechts {
@@ -76,17 +76,17 @@ padding:1rem 0 0 4.5rem
 
 .scroll-icon {
   margin:0 auto;
-  padding:0.1rem 0 7rem 0;
+  padding:0.1rem 0 8rem 0;
   width:1%;
 }
 
 .detail1-image17 {
-  padding:1.25rem 0 2.5rem 1.25rem;
+  padding:1rem 0 2rem 1rem;
 
 }
 
 .detail1-text {
-  padding:1.25rem 0 0 0;
+  padding:1rem 0 0 0;
 }
 
 h1 {
@@ -95,4 +95,55 @@ h1 {
   margin:0;
   line-height:78%;
   text-align: right;
+}
+
+.detail2-image17-small {
+  padding:5rem 5rem 0 0;
+}
+
+h2 {
+  font-size:3.4375rem;
+  font-weight: 400;
+  margin:0;
+  text-align: left;
+}
+
+.detail2-text-h2 {
+  padding:0 0 5rem 0;
+}
+
+.detail2-text-h4 {
+  padding:16rem 0 0 1rem;
+}
+
+.detail3-text-h2 {
+  padding:13rem 0 1rem 5rem;
+}
+
+.detail3-text-h4 {
+  padding:0 0 5rem 1rem;
+}
+
+.detail4-image87 {
+  padding:21rem 1.5rem 0 0;
+}
+
+.detail4-text-h2 {
+  padding:21rem 0 3rem 1rem;
+}
+
+.detail4-text-h4 {
+  padding:21rem 0 3rem 1rem;
+}
+
+.detail4-image17 {
+  padding:1rem 0 3rem 1.5rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.detail4-text-h1 {
+  padding:8rem 0 30rem 0;
+  position: absolute;
+  z-index: 1;
 }
