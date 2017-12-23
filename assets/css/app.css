@@ -68,10 +68,10 @@ padding:1rem 0 0 4.5rem
   padding:0 0 0 0.25rem;
 }
 
-.details-entdecken {
+.explore {
   margin:0 auto;
   padding:3rem 0 0 0;
-  width:10%;
+  width:1%;
 }
 
 .scroll-icon {
@@ -106,6 +106,7 @@ h2 {
   font-weight: 400;
   margin:0;
   text-align: left;
+  line-height:104%;
 }
 
 .detail2-text-h2 {
@@ -117,7 +118,7 @@ h2 {
 }
 
 .detail3-text-h2 {
-  padding:13rem 0 1rem 5rem;
+  padding:15rem 0 1rem 5rem;
 }
 
 .detail3-text-h4 {
@@ -146,4 +147,115 @@ h2 {
   padding:8rem 0 30rem 0;
   position: absolute;
   z-index: 1;
+}
+
+.detail5-image87-auto {
+  padding:18rem 0 0 1.1rem;
+  z-index: 3;
+}
+
+.detail5-image17-auto {
+  padding:17rem 0 0 1.1rem;
+  z-index: 3;
+}
+
+.detail5-text-h4 {
+  padding:8rem 0 0 0;
+}
+
+.detail5-image87-bus {
+  padding:5rem 0 0 0;
+}
+
+.detail5-image17-bus {
+  padding:1rem 0 10rem 1rem;
+}
+
+h3 {
+  font-size: 1.3125rem;
+  font-weight: 400;
+  margin:0;
+  line-height:110%;
+}
+
+.detail6-text-h3 {
+  padding:3rem 0 0 0;
+}
+
+
+.detail6-image17 {
+  padding:1rem 0 0 1rem;
+}
+
+.detail6-image87 {
+    padding:0 0 0 1rem;
+}
+
+.autorenzeile {
+  padding:0.5rem 0 0 0;
+
+}
+
+.detail6-text-h4 {
+  padding:5rem 0 0 0.5rem;
+}
+
+
+/*Links*/
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+
+
+/*über das Projekt*/
+
+.more-about {
+  margin:0 auto;
+  padding:30rem 0 0 0;
+}
+
+.scroll-icon {
+  margin:0 auto;
+  padding:0.1rem 0 8rem 0;
+  width:1%;
+}
+
+.title-mark-small {
+  width:5%;
+  margin:0 auto;
+  padding:1rem 0 0 0;
+}
+
+.projekt-site-title {
+  padding:8rem 0 0 0.5rem;
+}
+
+.projekt-site-text {
+  padding:8rem 0 0 3rem;
+}
+
+.projekt-site-quote{
+  padding:18rem 0 0 3rem;
+}
+
+.quote-right {
+  text-align:right;
 }
