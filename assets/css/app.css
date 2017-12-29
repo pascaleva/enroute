@@ -11,6 +11,7 @@ img {
 .margin-all{
   height:100vh;
   padding:0.6rem;
+  margin:0 auto;
 }
 
 .limmatplatz87 {
@@ -18,13 +19,17 @@ img {
   height:100%;
   background-size:cover;
   background-position: center;
+  z-index: 1;
 }
+
+
 
 .limmatplatz17 {
   background-image: url(../img/2017_ganz.jpg);
   height:100%;
   background-size:cover;
   background-position: center;
+  z-index: 1;
 }
 
 .margin-top {
@@ -68,13 +73,13 @@ padding:1rem 0 0 4.5rem
   padding:0 0 0 0.25rem;
 }
 
-.explore {
-  margin:0 auto;
+.explore-text {
+  margin: 0 auto;
+  text-align: center;
   padding:3rem 0 0 0;
-  width:1%;
 }
 
-.scroll-icon {
+.explore-icon {
   margin:0 auto;
   padding:0.1rem 0 8rem 0;
   width:1%;
@@ -226,13 +231,19 @@ a:active {
 
 
 /*über das Projekt*/
-
-.more-about {
-  margin:0 auto;
-  padding:30rem 0 0 0;
+.explore-more {
+  padding:0;
+  margin:0;
 }
 
-.scroll-icon {
+
+.explore-more-text {
+  margin: 0 auto;
+  text-align: center;
+  padding:3rem 0 0 0;
+}
+
+.more-icon {
   margin:0 auto;
   padding:0.1rem 0 8rem 0;
   width:1%;
@@ -245,11 +256,14 @@ a:active {
 }
 
 .projekt-site-title {
-  padding:8rem 0 0 0.5rem;
+  padding:21rem 4.6rem 0 0;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
 }
 
 .projekt-site-text {
-  padding:8rem 0 0 3rem;
+  padding:8rem 0 0 0;
 }
 
 .projekt-site-quote{
@@ -258,4 +272,9 @@ a:active {
 
 .quote-right {
   text-align:right;
+}
+
+.making-of-video {
+  margin:0 auto;
+  padding:0;
 }

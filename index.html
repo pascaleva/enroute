@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enroute</title>
+  <title>enroute</title>
   <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/foundation.css">
   <link rel="stylesheet" href="assets/css/app.css">
@@ -28,16 +28,16 @@
 <!--nav-->
 <div class="grid-x">
   <div class="cell large-1 das-projekt">
-    <a href="das-projekt.html"><h4>das Projekt</h4></a>
+    <a href="#about"><h4>das Projekt</h4></a>
   </div>
-  <div class=" cell large-2 home">
-    <h4>Home</h4>
+  <div class="cell large-2 home">
+    <a href="#home"><h4>Home</h4></a>
   </div>
 </div>
 
 
 <!--content-->
-<div class="grid-x">
+<div class="grid-x" id="home">
   <div class="cell large-3 title-mark">
     <img src="assets/img/title_path.svg" alt="Enroute">
   </div>
@@ -68,9 +68,10 @@
   </div>
 
   <div class="explore">
+    <div class="explore-text">
       <h4>Entdecke die Details</h4>
     </div>
-    <div class="scroll-icon">
+    <div class="explore-icon">
       <img src="assets/img/scroll_icon.svg" alt="scroll">
     </div>
   </div>
@@ -246,26 +247,27 @@
   <div class="cell large-2 detail6-text-h4">
     <h4>Das dominierende Gebäude am Limmatplatz ist das mehrstöckige Hochhaus und Hauptgebäude des
       Migros-Genossenschafts-Bunds. Dies befindet sich zwar immer noch am gleichen Standort. Von der
-      1987 abgebildeten Dach-terasse sowie dem Parkplatz, ist heute jedoch nur noch ein Solardach übrig.
+      1987 abgebildeten Dachterasse sowie dem Parkplatz, ist heute jedoch nur noch ein Solardach übrig.
       Auch gab es einen Wechsel des Besitzers des bekanntesten Cafes am Limmatplatz. El Greco wird zu Cafe
       Lang: 2010 verkündet Migros als Hausbesitzer, dass die Zeit als Gaststätte abgelaufen ist und die
       Räumlichkeiten werden von einem jungem Quartett übernommen.</h4>
   </div>
+</div>
 
 
-  <div class="grid-x more-about">
-    <div class=" cell large-12">
+  <div class="explore-more">
+    <div class="explore-more-text">
       <h4>Mehr über das Projekt</h4>
     </div>
-    <div class="scroll-icon">
-      <img src="assets/img/scroll_icon.svg" alt="scroll">
+    <div class="more-icon">
+      <img src="assets/img/scroll_icon.svg" alt="Mehr über das Projekt erfahren">
     </div>
   </div>
 
 
   <!--über das Projekt-->
   <div class="grid-x">
-    <div class="cell large-1 projekt-site-title">
+    <div class="cell large-1 projekt-site-title" id="about">
         <h3>Heimatkunde</h3>
       </div>
     <div class="cell large-2 projekt-site-text">
@@ -281,23 +283,16 @@
   </div>
 
 
-  <!--video-->
+  <!--video
   <div class="grid-x">
-    <div class="cell large-1 projekt-site-title">
-        <h3>Heimatkunde</h3>
-      </div>
-    <div class="cell large-2 projekt-site-text">
-        <h4>In dieser elfwöchigen Arbeit über Konzeption, Design und Umsetzung dieser Website will ich Plätze,
-          denen ich zwar oft begegne aber nie bewusst wahrnehme, Aufmerksamkeit schenken, hinschauen und
-          entdecken. Dieses Projekt ist erweiterbar. In einem ersten Schritt wurde der Limmatplatz, das
-          pulsierende Herz des Industriequartiers von 1987 und 2017 verglichen.</h4>
-      </div>
-      <div class="cell large-5 large-offset-3 projekt-site-quote">
-          <h2 class="quote-right"> «Eine Stadt ist nicht leicht zu entdecken, gerade wenn man in ihr zuhause
-            ist.»</h2>
-      </div>
+    <div class="cell large-6 making-of-video">
+      <video width="600"
+      controls>
+      <source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4"
+      type="video/mp4">
+    </div>
   </div>
-
+-->
 
 
 
