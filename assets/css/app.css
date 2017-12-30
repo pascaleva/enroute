@@ -1,6 +1,6 @@
 body {
   font-family: 'Heebo', sans-serif;
-  font-weight: 400;
+  font-weight: 400 600;
 }
 
 img {
@@ -36,7 +36,7 @@ img {
 }
 
 .limmatplatz87 {
-  background-image: url(../img/1987_ganz.jpg);
+  background-image: url(../img/1987_ganz_schmaler.jpg);
   height:100%;
   background-size:cover;
   background-position: center;
@@ -64,7 +64,7 @@ img {
 }
 
 .limmatplatz17 {
-  background-image: url(../img/2017_ganz.jpg);
+  background-image: url(../img/2017_ganz_schmaler.jpg);
   height:100%;
   background-size:cover;
   background-position: center;
@@ -80,18 +80,31 @@ img {
 }
 
 h4 {
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   font-weight: 400;
   margin:0;
-  line-height:130%;
+  line-height:135%;
 }
 
 .das-projekt {
-  padding:2rem 0 0 2rem;
+  padding:1.75rem 0 0 2rem;
+  text-decoration: underline;
+  font-weight:600 !important;
+  position:absolute;
 }
 
+/*
 .home {
   padding:2rem 0 0 1rem;
+}
+*/
+
+.back-up {
+margin:0;
+padding:1.75rem 2rem 0 0;
+width:4.25%;
+float: right;
+position:relative;
 }
 
 .zahl-links {
@@ -101,7 +114,7 @@ padding:1rem 0 0 4.5rem
 .title-mark {
   width:45%;
   margin:0 auto;
-  padding:4rem 0 0 0;
+  padding:6rem 0 0 0;
 }
 
 .gutter-links {
@@ -141,12 +154,20 @@ h1 {
   text-align: right;
 }
 
+.h1_knotenpunkt {
+width:100%;
+margin:auto;
+padding:0;
+}
+
+
+
 .detail2-image17-small {
   padding:5rem 5rem 0 0;
 }
 
 h2 {
-  font-size:3.4375rem;
+  font-size:3.6875rem;
   font-weight: 400;
   margin:0;
   text-align: left;
@@ -162,23 +183,27 @@ h2 {
 }
 
 .detail3-text-h2 {
-  padding:15rem 0 1rem 5rem;
+  padding:15rem 0 1rem 6rem;
 }
 
 .detail3-text-h4 {
   padding:0 0 5rem 1rem;
 }
 
-.detail4-image87 {
-  padding:21rem 1.5rem 0 0;
-}
-
-.detail4-text-h2 {
-  padding:21rem 0 3rem 1rem;
+.detail3-image87 {
+  padding:5rem 0 0 0;
 }
 
 .detail4-text-h4 {
-  padding:21rem 0 3rem 1rem;
+  padding:8rem 0 3rem 0;
+  }
+
+.detail4-text-h2 {
+  padding:5rem 0 3rem 1rem;
+}
+
+.detail4-image87 {
+  padding:5rem 1.5rem 0 0;
 }
 
 .detail4-image17 {
@@ -187,23 +212,29 @@ h2 {
   z-index: 2;
 }
 
-.detail4-text-h1 {
-  padding:8rem 0 30rem 0;
+.h1_limmaplatz {
+  padding:9rem 0 0 0;
+  margin:auto;
+  width:100%;
   position: absolute;
   z-index: 1;
 }
 
 .detail5-image87-auto {
-  padding:18rem 0 0 1.1rem;
+  padding:35rem 0 0 1.1rem;
   z-index: 3;
 }
 
 .detail5-image17-auto {
-  padding:17rem 0 0 1.1rem;
+  padding:34rem 0 0 1.1rem;
   z-index: 3;
 }
 
 .detail5-text-h4 {
+  padding:3rem 0 5rem 0;
+}
+
+.detail5-text-h2 {
   padding:8rem 0 0 0;
 }
 
@@ -216,23 +247,22 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3125rem;
+  font-size: 1.8125rem;
   font-weight: 400;
   margin:0;
-  line-height:110%;
+  line-height:117%;
 }
 
 .detail6-text-h3 {
-  padding:3rem 0 0 0;
-}
-
-
-.detail6-image17 {
-  padding:1rem 0 0 1rem;
+  padding:0 0 0 0;
 }
 
 .detail6-image87 {
-    padding:0 0 0 1rem;
+    padding:8rem 0 0 1rem;
+}
+
+.detail6-image17 {
+  padding:9rem 0 0 1rem;
 }
 
 .autorenzeile {
@@ -241,7 +271,7 @@ h3 {
 }
 
 .detail6-text-h4 {
-  padding:5rem 0 0 0.5rem;
+  padding:0 0 0 1rem;
 }
 
 
@@ -271,7 +301,7 @@ a:active {
 
 /*über das Projekt*/
 .explore-more {
-  padding:0;
+  padding:10rem 0 0 0;
   margin:0;
 }
 
@@ -284,7 +314,7 @@ a:active {
 
 .more-icon {
   margin:0 auto;
-  padding:0.1rem 0 8rem 0;
+  padding:0.1rem 0 1rem 0;
   width:1%;
 }
 
@@ -295,7 +325,7 @@ a:active {
 }
 
 .projekt-site-title {
-  padding:21rem 4.6rem 0 0;
+  padding:22rem 3.75rem 0 0;
   writing-mode: vertical-rl;
   -webkit-transform: rotate(180deg); /* Safari */
   transform: rotate(180deg);
@@ -306,7 +336,7 @@ a:active {
 }
 
 .projekt-site-quote{
-  padding:18rem 0 0 3rem;
+  padding:21rem 1rem 0 3rem;
 }
 
 .quote-right {
