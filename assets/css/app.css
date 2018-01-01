@@ -80,10 +80,10 @@ img {
 }
 
 h4 {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   font-weight: 400;
   margin:0;
-  line-height:135%;
+  line-height:138%;
 }
 
 .das-projekt {
@@ -92,12 +92,6 @@ h4 {
   font-weight:600 !important;
   position:absolute;
 }
-
-/*
-.home {
-  padding:2rem 0 0 1rem;
-}
-*/
 
 .back-up {
 margin:0;
@@ -163,7 +157,7 @@ padding:0;
 
 
 .detail2-image17-small {
-  padding:5rem 5rem 0 0;
+  padding:0 5rem 9rem 0;
 }
 
 h2 {
@@ -175,45 +169,45 @@ h2 {
 }
 
 .detail2-text-h2 {
-  padding:0 0 5rem 0;
+  padding:3rem 3rem 0.4rem 0;
 }
 
 .detail2-text-h4 {
-  padding:16rem 0 0 1rem;
+  padding:6rem 0 0 1.1rem;
 }
 
 .detail3-text-h2 {
-  padding:15rem 0 1rem 6rem;
+  padding:13rem 0 1rem 5rem;
 }
 
 .detail3-text-h4 {
-  padding:0 0 5rem 1rem;
+  padding:0 0 0 3.5rem;
 }
 
 .detail3-image87 {
-  padding:5rem 0 0 0;
+  padding:0.25rem 0 0 1.5rem;
 }
 
 .detail4-text-h4 {
-  padding:8rem 0 3rem 0;
+  padding:21.6rem 0 0 0.2rem;
   }
 
 .detail4-text-h2 {
-  padding:5rem 0 3rem 1rem;
+  padding:17.25rem 0 0 1rem;
 }
 
 .detail4-image87 {
-  padding:5rem 1.5rem 0 0;
+  padding:10rem 1rem 0 0;
 }
 
 .detail4-image17 {
-  padding:1rem 0 3rem 1.5rem;
+  padding:1rem 0 3rem 1rem;
   position: absolute;
   z-index: 2;
 }
 
 .h1_limmaplatz {
-  padding:9rem 0 0 0;
+  padding:0 0 0 0;
   margin:auto;
   width:100%;
   position: absolute;
@@ -221,21 +215,21 @@ h2 {
 }
 
 .detail5-image87-auto {
-  padding:35rem 0 0 1.1rem;
+  padding:30rem 0 0 1.1rem;
   z-index: 3;
 }
 
 .detail5-image17-auto {
-  padding:34rem 0 0 1.1rem;
+  padding:29rem 0 0 1.1rem;
   z-index: 3;
 }
 
-.detail5-text-h4 {
-  padding:3rem 0 5rem 0;
+.detail5-text-h2 {
+  padding:3rem 0 0 0;
 }
 
-.detail5-text-h2 {
-  padding:8rem 0 0 0;
+.detail5-text-h4 {
+  padding:1rem 0 0 1rem;
 }
 
 .detail5-image87-bus {
@@ -254,15 +248,15 @@ h3 {
 }
 
 .detail6-text-h3 {
-  padding:0 0 0 0;
+  padding:8rem 0 0 0;
 }
 
 .detail6-image87 {
-    padding:8rem 0 0 1rem;
+    padding:1rem 0 0 1rem;
 }
 
 .detail6-image17 {
-  padding:9rem 0 0 1rem;
+  padding:2rem 0 0 1rem;
 }
 
 .autorenzeile {
@@ -271,7 +265,7 @@ h3 {
 }
 
 .detail6-text-h4 {
-  padding:0 0 0 1rem;
+  padding:8rem 0 0 1rem;
 }
 
 
