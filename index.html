@@ -9,9 +9,13 @@
   <link rel="stylesheet" href="assets/css/foundation.css">
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" href="assets/js/app.js"></script>
+<!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/scrolloverflow.min.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>-->
+  <script src="assets/js/rellax.min.js"></script>
+  <script> var rellax = new Rellax('.rellax'); </script>
+
 
 </head>
 
@@ -58,7 +62,7 @@
 
     <div class="nav">
       <div class="das-projekt">
-        <a href="#about"><h4>das Projekt</h4></a>
+        <a href="#about"><h4>über das Projekt</h4></a>
       </div>
     <!--  <div class="cell large-2 home">
         <a href="#home"><h4>Home</h4></a>
@@ -115,11 +119,12 @@
       <div class="section">
 
         <div class="grid-x">
-          <div class="cell large-3">
+          <div class="cell large-3 detail1-image87">
               <img src="assets/img/1987_platz_3sp_60.jpg" alt="Limmatplatz 1987">
           </div>
-          <div class="cell large-2 large-offset-6 detail1-text">
-              <h4>Der Limmatplatz ist ein&shy; wichtiger Knotenpunkt, der die &shy;Limmatstrasse, das Ende der &shy;
+
+          <div class="cell large-2 large-offset-8 detail1-text">
+              <h4>Der Limmatplatz ist ein wichtiger Knotenpunkt, der die Limmatstrasse, das Ende der
                 Langstrasse
                 sowie der Beginn der Kornhausbrücke verbindet. Die Grundzüge bestehen aus einem Quadrat, dass 45°
                 verschoben zu den rechtwinklig kreuzenden Strassen angelegt wurde.</h4>
@@ -128,13 +133,13 @@
 
 
         <div class="grid-x detail1-image17">
-            <div class="cell large-3">
+            <div class="cell large-5">
                <img src="assets/img/2017_platz_3sp_60.jpg" alt="Limmatplatz 2017">
             </div>
         </div>
 
         <div class="grid-x h1_knotenpunkt">
-          <div class="cell large-12">
+          <div class="cell large-12" "rellax" data-rellax-speed="-3">
             <img src="assets/img/h1_knotenpunkt.svg" alt="Der Knotenpunkt">
           </div>
         </div>
@@ -322,17 +327,31 @@
           </div>
       </div>
 
+<!--Making-of-->
+      <!--section5-->
+    <div class="section">
 
-      <!--video
       <div class="grid-x">
-        <div class="cell large-6 making-of-video">
-          <video width="600"
-          controls>
-          <source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4"
-          type="video/mp4">
+        <div class="cell large-4 large-offset-7 making-of-title">
+            <h3>Making-of</h3>
         </div>
       </div>
-    -->
+
+      <div class="grid-x">
+        <div class="responsive-embed widescreen cell large-7 large-offset-1 making-of-video">
+          <iframe src="https://player.vimeo.com/video/249821936?autoplay=1&loop=1&title=0&byline=0&portrait=0"
+          width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+        </div>
+
+        <div class="cell large-3 making-of-text">
+            <h4> Für das Bildmaterial von 1987 benutzte ich öffentlich verwendbare Fotos
+              vom Bildarchiv der ETH-Bibliothek. Um genau diese spannende Perspektive nachzustellen,
+              organisierte ich mir eine Drohne und machte mich auf den Weg auf meinen ersten Flug.</h4>
+        </div>
+
+      </div>
+
 
     </div>
 </div>
