@@ -86,6 +86,36 @@ h4 {
   line-height:138%;
 }
 
+.nav {
+  overflow: hidden;
+}
+
+/* nav links */
+#nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Page content
+.content {
+  padding: 16px;
+}
+ */
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .das-projekt {
   padding:1.75rem 0 0 2rem;
   text-decoration: underline;
@@ -95,10 +125,9 @@ h4 {
 
 .back-up {
 margin:0;
-padding:1.75rem 2rem 0 0;
+padding:1.75rem 0 0 0;
 width:4.25%;
 float: right;
-position:relative;
 }
 
 .zahl-links {
@@ -332,7 +361,20 @@ a:active {
   margin:0 auto;
   padding:0.1rem 0 1rem 0;
   width:1%;
+  animation-name: arrow;
+  animation-duration: 2s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
 }
+
+/* animated arrow icon */
+@keyframes arrow {
+    0%   {-webkit-transform: translate(0, 0);}
+    20%  {-webkit-transform: translate(0, 7px);}
+    40%  {-webkit-transform: translate(0, 0);}
+}
+
 
 .title-mark-small {
   width:5%;

@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
   <script type="text/javascript" href="assets/js/app.js"></script>
-<!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/scrolloverflow.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>-->
   <script src="assets/js/rellax.min.js"></script>
@@ -27,7 +27,7 @@
 
     <!--sections1-->
     <div class="section">
-    <div class="box87">
+    <div class="box87" id="up">
         <div class="text87"><h4>Limmatplatz 1987</h4>
         </div>
       </div>
@@ -60,20 +60,14 @@
     <!--sections3-->
     <div class="section fp-noscroll">
 
-    <div class="nav">
+
       <div class="das-projekt">
         <a href="#about"><h4>über das Projekt</h4></a>
-      </div>
-    <!--  <div class="cell large-2 home">
-        <a href="#home"><h4>Home</h4></a>
-      </div>-->
-      <div class="back-up">
-        <img src="assets/img/back_up_icon.svg" alt="up">
       </div>
     </div>
 
 
-<!--content-->
+<!--main-->
     <div class="grid-x" id="home">
       <div class="cell large-3 title-mark">
         <img src="assets/img/title_path.svg" alt="Enroute">
@@ -117,7 +111,14 @@
 
 <!--detail1-->
       <div class="section">
+        <div class="nav" id="nav">
+          <div class="back-up">
+            <a href="#up"> <img src="assets/img/back_up_icon.svg" alt="up"></a>
+          </div>
+        </div>
 
+<!--content-->
+      <div class="content">
         <div class="grid-x">
           <div class="cell large-3 detail1-image87">
               <img src="assets/img/1987_platz_3sp_60.jpg" alt="Limmatplatz 1987">
@@ -197,8 +198,6 @@
 
 
 <!--detail4-->
-
-
       <div class="grid-x">
           <div class="cell large-1 large-offset-2 detail4-image87">
              <img src="assets/img/1987_detail4-tram_1sp_max.jpg" alt="Tram von 1987">
@@ -304,8 +303,8 @@
             <img src="assets/img/scroll_icon.svg" alt="Mehr über das Projekt erfahren">
           </div>
         </div>
+        </div>
       </div>
-
 
 <!--über das Projekt-->
       <!--section4-->
@@ -314,7 +313,7 @@
       <div class="grid-x">
         <div class="cell large-1 projekt-site-title" id="about">
             <h3>Heimatkunde</h3>
-          </div>
+        </div>
         <div class="cell large-2 projekt-site-text">
             <h4>In dieser elfwöchigen Arbeit über Konzeption, Design und Umsetzung dieser Website will ich Plätze,
               denen ich zwar oft begegne aber nie bewusst wahrnehme, Aufmerksamkeit schenken, hinschauen und
@@ -325,12 +324,10 @@
               <h2 class="quote-right"> «Eine Stadt ist nicht leicht zu entdecken, gerade wenn man in ihr zuhause
                 ist.»</h2>
           </div>
-      </div>
+        </div>
+
 
 <!--Making-of-->
-      <!--section5-->
-    <div class="section">
-
       <div class="grid-x">
         <div class="cell large-4 large-offset-7 making-of-title">
             <h3>Making-of</h3>
@@ -349,11 +346,15 @@
               vom Bildarchiv der ETH-Bibliothek. Um genau diese spannende Perspektive nachzustellen,
               organisierte ich mir eine Drohne und machte mich auf den Weg auf meinen ersten Flug.</h4>
         </div>
-
       </div>
 
-
+<!--section4ddiv-->
     </div>
+<!--contentenddiv-->
+    </div>
+<!--fullpageenddiv-->
+  </div>
+<!--bodyenddiv-->
 </div>
 
 
