@@ -19,14 +19,6 @@
 })(typeof window !== 'undefined' ? window : this, function($, window, document, Math, undefined) {
     'use strict';
 
-// create sections
-    $(document).ready(function() {
-			$('#fullpage').fullpage({
-				scrollOverflow: true
-			});
-		});
-
-
     // keeping central set of classnames and selectors
     var WRAPPER =               'fullpage-wrapper';
     var WRAPPER_SEL =           '.' + WRAPPER;

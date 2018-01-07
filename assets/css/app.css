@@ -1,11 +1,17 @@
 body {
   font-family: 'Heebo', sans-serif;
   font-weight: 400 600;
+  position: relative;
 }
 
-img {
+/* img {
   width:100%;
   max-width:auto !important;
+} */
+
+.container {
+    position: relative;
+
 }
 
 .margin-all{
@@ -88,14 +94,23 @@ h4 {
 
 .nav {
   overflow: hidden;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  padding: 3rem 3rem 0 0;
 }
 
 /* nav links */
 #nav a {
-  float: left;
+  float: right;
   display: block;
   text-align: center;
   text-decoration: underline;
+}
+
+.up-icon {
+  width: 30px;
+
 }
 
 /* Page content
@@ -123,12 +138,25 @@ h4 {
   position:absolute;
 }
 
-.back-up {
+/* .back-up {
 margin:0;
 padding:1.75rem 0 0 0;
 width:4.25%;
 float: right;
+} */
+
+.back-up {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  float: right;
+
 }
+
+
 
 .zahl-links {
 padding:1rem 0 0 4.5rem

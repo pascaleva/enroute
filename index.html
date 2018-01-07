@@ -9,12 +9,12 @@
   <link rel="stylesheet" href="assets/css/foundation.css">
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
-  <script type="text/javascript" href="assets/js/app.js"></script>
-  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/js/scrolloverflow.min.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>-->
-  <script src="assets/js/rellax.min.js"></script>
-  <script> var rellax = new Rellax('.rellax'); </script>
+
+
+
+
+  <!-- <script src="assets/js/rellax.min.js"></script>
+  <script> var rellax = new Rellax('.rellax'); </script> -->
 
 
 </head>
@@ -22,12 +22,20 @@
 
 <body>
 
+
+
+<div id="container">
+  <div class="nav" id="nav">
+      <a href="#up"> <img src="assets/img/back_up_icon.svg" alt="up" class="up-icon"></a>
+  </div>
+
+
 <!--einstieg-->
 <div id="fullpage">
 
     <!--sections1-->
-    <div class="section">
-    <div class="box87" id="up">
+    <div class="section" data-anchor="up">
+      <div class="box87">
         <div class="text87"><h4>Limmatplatz 1987</h4>
         </div>
       </div>
@@ -36,12 +44,11 @@
         <div class="cell large-12 limmatplatz87">
         </div>
       </div>
-
     </div>
 
     <!--sections2-->
     <div class="section">
-    <div class="box17">
+      <div class="box17">
         <div class="text17"><h4>Limmatplatz 2017</h4>
         </div>
       </div>
@@ -64,7 +71,7 @@
       <div class="das-projekt">
         <a href="#about"><h4>über das Projekt</h4></a>
       </div>
-    </div>
+
 
 
 <!--main-->
@@ -110,14 +117,12 @@
 
 
 <!--detail1-->
-      <div class="section">
-        <div class="nav" id="nav">
-          <div class="back-up">
-            <a href="#up"> <img src="assets/img/back_up_icon.svg" alt="up"></a>
-          </div>
-        </div>
+
+
+
 
 <!--content-->
+    <div class="section">
       <div class="content">
         <div class="grid-x">
           <div class="cell large-3 detail1-image87">
@@ -125,7 +130,7 @@
           </div>
 
           <div class="cell large-2 large-offset-8 detail1-text">
-              <h4>Der Limmatplatz ist ein wichtiger Knotenpunkt, der die Limmatstrasse, das Ende der
+              <h4>Der <a href="#up">Limmatplatz</a> ist ein wichtiger Knotenpunkt, der die Limmatstrasse, das Ende der
                 Langstrasse
                 sowie der Beginn der Kornhausbrücke verbindet. Die Grundzüge bestehen aus einem Quadrat, dass 45°
                 verschoben zu den rechtwinklig kreuzenden Strassen angelegt wurde.</h4>
@@ -306,6 +311,13 @@
         </div>
       </div>
 
+      <!-- normal scroll until here -->
+
+
+
+
+
+
 <!--über das Projekt-->
       <!--section4-->
       <div class="section">
@@ -352,17 +364,18 @@
     </div>
 <!--contentenddiv-->
     </div>
-<!--fullpageenddiv-->
-  </div>
-<!--bodyenddiv-->
+
 </div>
 
 
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/scrolloverflow.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
 
 
 
-<script src="assets/js/vendor/jquery.js"></script>
+
 <script src="assets/js/vendor/what-input.js"></script>
 <script src="assets/js/vendor/foundation.js"></script>
 <script src="assets/js/app.js"></script>
