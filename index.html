@@ -10,15 +10,7 @@
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css" />
 
-
-
-
-  <!-- <script src="assets/js/rellax.min.js"></script>
-  <script> var rellax = new Rellax('.rellax'); </script> -->
-
-
 </head>
-
 
 <body>
 
@@ -26,7 +18,7 @@
 
 <div id="container">
   <div class="nav" id="nav">
-      <a href="#up"> <img src="assets/img/back_up_icon.svg" alt="up" class="up-icon"></a>
+      <a href="#1987"> <img src="assets/img/back_up_icon.svg" alt="up" class="up-icon"></a>
   </div>
 
 
@@ -34,7 +26,7 @@
 <div id="fullpage">
 
     <!--sections1-->
-    <div class="section" data-anchor="up">
+    <div class="section" data-anchor="1987">
       <div class="box87">
         <div class="text87"><h4>Limmatplatz 1987</h4>
         </div>
@@ -47,7 +39,7 @@
     </div>
 
     <!--sections2-->
-    <div class="section">
+    <div class="section" data-anchor="2017">
       <div class="box17">
         <div class="text17"><h4>Limmatplatz 2017</h4>
         </div>
@@ -82,8 +74,8 @@
     </div>
 
 
-    <div class="grid-x">
-      <div class="cell large-1 zahl-links">
+    <div class="grid-x zahl-links">
+      <div class="cell large-1">
         <h4>1987</h4>
       </div>
     </div>
@@ -99,6 +91,7 @@
 
       </div>
 
+
       <div class="grid-x zahl-rechts">
         <div class="cell large-1 large-offset-11 zahl-rechts">
           <h4>2017</h4>
@@ -107,7 +100,7 @@
 
       <div class="explore">
         <div class="explore-text">
-          <h4>Entdecke die Details</h4>
+          <h4>on y va!</h4>
         </div>
         <div class="explore-icon">
           <img src="assets/img/scroll_icon.svg" alt="scroll">
@@ -129,8 +122,8 @@
               <img src="assets/img/1987_platz_3sp_60.jpg" alt="Limmatplatz 1987">
           </div>
 
-          <div class="cell large-2 large-offset-8 detail1-text">
-              <h4>Der <a href="#up">Limmatplatz</a> ist ein wichtiger Knotenpunkt, der die Limmatstrasse, das Ende der
+          <div class="cell large-2 large-offset-4 detail1-text">
+              <a href="#up"></a> <h4>Der Limmatplatz ist ein wichtiger Knotenpunkt, der die Limmatstrasse, das Ende der
                 Langstrasse
                 sowie der Beginn der Kornhausbrücke verbindet. Die Grundzüge bestehen aus einem Quadrat, dass 45°
                 verschoben zu den rechtwinklig kreuzenden Strassen angelegt wurde.</h4>
@@ -139,13 +132,13 @@
 
 
         <div class="grid-x detail1-image17">
-            <div class="cell large-5">
+            <div class="cell large-3">
                <img src="assets/img/2017_platz_3sp_60.jpg" alt="Limmatplatz 2017">
             </div>
         </div>
 
-        <div class="grid-x h1_knotenpunkt">
-          <div class="cell large-12" "rellax" data-rellax-speed="-3">
+        <div class="grid-x h1_knotenpunkt rellax" data-rellax-speed="7" data-rellax-zindex="5">
+          <div class="cell large-12" >
             <img src="assets/img/h1_knotenpunkt.svg" alt="Der Knotenpunkt">
           </div>
         </div>
@@ -158,7 +151,7 @@
           </div>
         </div>
 
-        <div class="grid-x detail2-image17-small">
+        <div class="grid-x detail2-image17-small rellax" data-rellax-speed="7" data-rellax-zindex="5">
             <div class="cell large-2 large-offset-6">
                <img src="assets/img/2017_detail2-bau_2sp_60.jpg" alt="Umbau 2007 Limmatplatz">
             </div>
@@ -219,7 +212,7 @@
           <div class="cell large-1 large-offset-2 detail4-image17">
              <img src="assets/img/2017_detail4-tram_1sp_max.jpg" alt="Tram von 2017">
           </div>
-          <div class="cell large-4 detail4-text-h2 large-offset-3">
+          <div class="cell large-4 detail4-text-h2">
             <h2>Nächster Halt</h2>
           </div>
       </div>
@@ -368,13 +361,13 @@
 </div>
 
 
+<!-- Does not work together with fullpage.js -->
+<script src="assets/js/rellax.min.js"></script>
+<script> var rellax = new Rellax('.rellax'); </script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/scrolloverflow.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
-
-
-
 
 <script src="assets/js/vendor/what-input.js"></script>
 <script src="assets/js/vendor/foundation.js"></script>

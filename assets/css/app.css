@@ -4,10 +4,10 @@ body {
   position: relative;
 }
 
-/* img {
+img {
   width:100%;
   max-width:auto !important;
-} */
+}
 
 .container {
     position: relative;
@@ -98,6 +98,7 @@ h4 {
   position: absolute;
   z-index: 10;
   padding: 3rem 3rem 0 0;
+  visibility: hidden;
 }
 
 /* nav links */
@@ -110,7 +111,6 @@ h4 {
 
 .up-icon {
   width: 30px;
-
 }
 
 /* Page content
@@ -159,7 +159,7 @@ float: right;
 
 
 .zahl-links {
-padding:1rem 0 0 4.5rem
+padding:1.3rem 0 0 7.7rem
 }
 
 .title-mark {
@@ -201,22 +201,16 @@ padding:1rem 0 0 4.5rem
 }
 
 .detail1-image17 {
-  padding:12.9rem 0 0 1rem;
-  z-index: 2;
-  position: absolute;
+  padding:1rem 0 0 0;
 
 }
 
 .detail1-image87 {
-  z-index: 3;
-  position: absolute;
-
+padding:1rem 0 0 0;
 }
 
 .detail1-text {
-  padding:3rem 0 0 0;
-  z-index: 1;
-  position: absolute;
+  padding:4rem 0 0 0;
 }
 
 h1 {
@@ -230,7 +224,7 @@ h1 {
 .h1_knotenpunkt {
 width:100%;
 margin:auto;
-padding:27rem 0 0 0;
+padding:5rem 0 0 0;
 }
 
 
@@ -268,34 +262,29 @@ h2 {
 }
 
 .detail4-text-h4 {
-  padding:15rem 0 0 0.2rem;
+  padding:25rem 0 0 1rem;
   }
 
 .detail4-text-h2 {
-  padding:12.2rem 0 0 1rem;
+  padding:23rem 0 0 1rem;
 }
 
 .detail4-image87 {
-  padding:10rem 1rem 0 0;
+  padding:10rem 0 0 0;
 }
 
 .detail4-image17 {
-  padding:1rem 0 3rem 1rem;
-  position: absolute;
-  z-index: 2;
+  padding:1rem 0 3rem 0;
 }
 
 .h1_limmaplatz {
   padding:0 0 0 0;
   margin:auto;
   width:100%;
-  position: absolute;
-  z-index: 1;
 }
 
 .detail5-image87-auto {
-  padding:30rem 0 0 1.1rem;
-  z-index: 3;
+  padding:23rem 0 0 1.1rem;
 }
 
 .detail5-image17-auto {
@@ -312,11 +301,11 @@ h2 {
 }
 
 .detail5-image87-bus {
-  padding:5rem 0 0 0;
+  padding:8rem 0 0 0;
 }
 
 .detail5-image17-bus {
-  padding:1rem 0 10rem 1rem;
+  padding:1rem 0 10rem 0;
 }
 
 h3 {
@@ -387,7 +376,7 @@ a:active {
 
 .more-icon {
   margin:0 auto;
-  padding:0.1rem 0 1rem 0;
+  padding:0.1rem 0 5rem 0;
   width:1%;
   animation-name: arrow;
   animation-duration: 2s;
@@ -411,7 +400,7 @@ a:active {
 }
 
 .projekt-site-title {
-  padding:22rem 3.75rem 0 0;
+  padding:22rem 4.5rem 2.9rem 0;
   writing-mode: vertical-rl;
   -webkit-transform: rotate(180deg); /* Safari */
   transform: rotate(180deg);
@@ -422,7 +411,7 @@ a:active {
 }
 
 .projekt-site-quote{
-  padding:21rem 1rem 0 3rem;
+  padding:21rem 1.5rem 0 3rem;
 }
 
 .quote-right {
