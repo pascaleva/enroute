@@ -159,13 +159,13 @@ float: right;
 
 
 .zahl-links {
-padding:1.3rem 0 0 7.7rem
+padding:1.3rem 0 0 4.5rem
 }
 
 .title-mark {
   width:45%;
   margin:0 auto;
-  padding:6rem 0 0 0;
+  padding:4rem 0 0 0;
 }
 
 .gutter-links {
@@ -184,7 +184,7 @@ padding:1.3rem 0 0 7.7rem
 
 .explore-icon {
   margin:0 auto;
-  padding:0.1rem 0 8rem 0;
+  padding:0.1rem 0 10rem 0;
   width:1%;
   animation-name: arrow;
   animation-duration: 2s;
@@ -200,17 +200,18 @@ padding:1.3rem 0 0 7.7rem
     40%  {-webkit-transform: translate(0, 0);}
 }
 
+.detail1-image {
+  padding:1rem 0 1rem 0;
+}
+
+
 .detail1-image17 {
   padding:1rem 0 0 0;
-
 }
 
-.detail1-image87 {
-padding:1rem 0 0 0;
-}
 
 .detail1-text {
-  padding:4rem 0 0 0;
+  padding:6rem 0 0 0;
 }
 
 h1 {
@@ -224,7 +225,7 @@ h1 {
 .h1_knotenpunkt {
 width:100%;
 margin:auto;
-padding:5rem 0 0 0;
+padding:2rem 0 0 0;
 }
 
 
@@ -250,7 +251,7 @@ h2 {
 }
 
 .detail3-text-h2 {
-  padding:13rem 0 1rem 5rem;
+  padding:13rem 0 0.5rem 6rem;
 }
 
 .detail3-text-h4 {
@@ -262,20 +263,21 @@ h2 {
 }
 
 .detail4-text-h4 {
-  padding:25rem 0 0 1rem;
+  padding:11.1rem 0 0 1rem;
   }
 
 .detail4-text-h2 {
-  padding:23rem 0 0 1rem;
+  padding:25.2rem 0 0 1rem;
 }
 
 .detail4-image87 {
-  padding:10rem 0 0 0;
+  padding:10rem 0 1rem 0;
 }
 
 .detail4-image17 {
-  padding:1rem 0 3rem 0;
+  padding:1rem 0 0 0;
 }
+
 
 .h1_limmaplatz {
   padding:0 0 0 0;
