@@ -4,15 +4,15 @@ body {
   position: relative;
 }
 
-img {
-  width:100%;
-  max-width:auto !important;
+img{
+    width:100%;
+}
+/* ------- Ueber transition all wird alles, was sich bei diesem Element verändert animiert */
+section img{
+   -webkit-transition: all 2s linear;
+    transition: all 2s linear;
 }
 
-.container {
-    position: relative;
-
-}
 
 .margin-all{
   height:100vh;
@@ -26,7 +26,7 @@ img {
   z-index: 2;
   position:absolute;
   margin:0.6rem;
-  height: 4%;
+  height: 2rem;
   width: 12%;
   display: flex;
   align-items: center
@@ -54,7 +54,7 @@ img {
   z-index: 2;
   position:absolute;
   margin:0.6rem;
-  height: 4%;
+  height: 2rem;
   width: 12%;
   display: flex;
   align-items: center
@@ -208,10 +208,16 @@ h1 {
   text-align: right;
 }
 
+
+.rellax {
+    transition: transform 0.3s;
+}
+
+
 .h1_knotenpunkt {
 width:100%;
 margin:auto;
-padding:2rem 0 0 0;
+padding:12rem 0 0 0;
 }
 
 
@@ -229,7 +235,7 @@ h2 {
 }
 
 .detail2-text-h2 {
-  padding:3rem 3rem 0.4rem 0;
+  padding:0 3rem 0.4rem 0;
 }
 
 .detail2-text-h4 {
@@ -253,7 +259,7 @@ h2 {
   }
 
 .detail4-text-h2 {
-  padding:25.2rem 0 0 1rem;
+  padding:33rem 0 0 1rem;
 }
 
 .detail4-image87 {
@@ -266,22 +272,21 @@ h2 {
 
 
 .h1_limmaplatz {
-  padding:0 0 0 0;
+  padding:38rem 0 0 0;
   margin:auto;
   width:100%;
 }
 
 .detail5-image87-auto {
-  padding:23rem 0 0 1.1rem;
+  padding:0 0 0 1.1rem;
 }
 
 .detail5-image17-auto {
-  padding:29rem 0 0 1.1rem;
-  z-index: 3;
+  padding:0 0 0 1.1rem;
 }
 
 .detail5-text-h2 {
-  padding:3rem 0 0 0;
+  padding:0 0 0 0;
 }
 
 .detail5-text-h4 {
@@ -308,11 +313,11 @@ h3 {
 }
 
 .detail6-image87 {
-    padding:1rem 0 0 1rem;
+    padding:10rem 0 0 1rem;
 }
 
 .detail6-image17 {
-  padding:2rem 0 0 1rem;
+  padding:11rem 0 0 1rem;
 }
 
 .autorenzeile {
@@ -321,7 +326,7 @@ h3 {
 }
 
 .detail6-text-h4 {
-  padding:8rem 0 0 1rem;
+  padding:0 0 0 1rem;
 }
 
 
@@ -388,7 +393,7 @@ a:active {
 }
 
 .projekt-site-title {
-  padding:22rem 4.5rem 2.9rem 0;
+  padding:20rem 7.5rem 2.9rem 0;
   writing-mode: vertical-rl;
   -webkit-transform: rotate(180deg); /* Safari */
   transform: rotate(180deg);
@@ -399,7 +404,7 @@ a:active {
 }
 
 .projekt-site-quote{
-  padding:21rem 1.5rem 0 3rem;
+  padding:35rem 1.5rem 0 3rem;
 }
 
 .quote-right {
@@ -414,7 +419,7 @@ a:active {
 }
 
 .making-of-video {
-  padding:0 0 8rem 0;
+  padding:18rem 0 8rem 0;
 }
 
 .making-of-text {
