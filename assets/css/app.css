@@ -307,7 +307,7 @@ padding:1.3rem 0 0 4.5rem
 
 
 .detail1-text {
-  padding:6rem 0 0 0;
+  padding:3rem 0 0 0;
 }
 
 h1 {
@@ -320,7 +320,7 @@ h1 {
 
 
 .rellax {
-    transition: transform 0.3s;
+    transition: transform 0.6s;
 }
 
 
@@ -353,7 +353,7 @@ h2 {
 }
 
 .detail3-text-h2 {
-  padding:13rem 0 0.5rem 6rem;
+  padding:13rem 0 0.5rem 3rem;
 }
 
 .detail3-text-h4 {
@@ -369,7 +369,7 @@ h2 {
   }
 
 .detail4-text-h2 {
-  padding:33rem 0 0 1rem;
+  padding:36rem 0 0 1rem;
 }
 
 .detail4-image87 {
@@ -382,7 +382,7 @@ h2 {
 
 
 .h1_limmaplatz {
-  padding:38rem 0 0 0;
+  padding:25rem 0 0 0;
   margin:auto;
   width:100%;
 }
@@ -535,3 +535,55 @@ a:active {
 .making-of-text {
 padding:2rem 0 0 5rem;
 }
+
+.label {
+  background-color: white;
+  z-index: 2;
+  position:fixed;
+  margin:auto 0;
+  height: 3rem;
+  width: 19rem;
+  align-items: center;
+  top:50%;
+  left:50%;
+  font-size: 1.5rem;
+}
+
+
+/* define the animation */
+	@-webkit-keyframes wechsel {
+	  0%   { -webkit-transform: translate(0, 0); }
+	  100% { -webkit-transform: translate(0, -50%); }
+	}
+    @keyframes wechsel {
+	  0%   { -webkit-transform: translate(0, 0); }
+	  100% { -webkit-transform: translate(0, -50%); }
+	}
+
+
+
+	/* define your limiting container */
+	.wechsel {
+	  white-space: nowrap;
+	  overflow: hidden;
+	  box-sizing: border-box;
+    height: 48px;
+    font-weight:600;
+    padding:0.6rem 0 0 0;
+
+	}
+
+	/* this is the tray moving around your container */
+	.wechsel span {
+    animation-timing-function: ease;
+    display: inline-block;
+	  text-indent: 0;
+	  animation: wechsel 1s linear forwards; /* here you select the animation */
+      -webkit-animation: wechsel 1s linear forwards; /* here you select the animation */
+
+      -webkit-animation-delay:0.5s;
+         -moz-animation-delay:0.5s;
+          -ms-animation-delay:0.5s;
+           -o-animation-delay:0.5s;
+              animation-delay:0.5s;
+	}
