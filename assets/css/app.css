@@ -526,15 +526,19 @@ a:active {
 
 /*making-of*/
 .making-of-title {
-  padding: 0 5rem 1rem 11.5rem;
+  padding: 0 5rem 0 11.5rem;
 }
 
 .making-of-video {
-  padding:0 0 2rem 0;
+  padding:0 0 0 0;
 }
 
 .making-of-text {
-padding:2rem 0 0 5rem;
+padding:1rem 0 0 5rem;
+}
+
+.impressum-text {
+padding:1rem 0 5rem 0;
 }
 
 .label {
