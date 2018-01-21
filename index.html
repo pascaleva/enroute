@@ -13,14 +13,6 @@
 
 <body>
 
-
-
-  <!--
-  <div class="nav" id="nav">
-      <a href="#1987"> <img src="assets/img/back_up_icon.svg" alt="up" class="up-icon"></a>
-  </div>
--->
-
   <!--section1-->
   <div class="scrollify-section" data-section-name="1987" >
     <!-- <div class="box87">
@@ -34,18 +26,21 @@
       </div>
     </div> -->
 
-
-    <!--<div class="label">
-      <span style="float: left; padding-top: 0.6rem; padding-left:1rem; margin-right: 5px">Limmatplatz</span>
-      <div class="wechsel">
-          <span>
-          <br/>
-            1987<br/>
-          </span>
-      </div>
-
+    <div id="nav">
+        <a href="#1987"><img id="up-icon" src="assets/img/back_up_icon.svg" alt="up" class="up-icon"></a>
     </div>
-    -->
+
+
+    <div id="label" class="label">
+        <span style="float: left; padding-top: 0.6rem; padding-left:1rem; margin-right: 5px">Limmatplatz</span>
+        <div id="label-container" class="wechsel">
+            <span id="label-text">
+            <br/>
+              1987<br/>
+            </span>
+        </div>
+    </div>
+
 
     <div class="grid-x  margin-all">
       <div class="cell large-12 limmatplatz87">
@@ -56,24 +51,33 @@
 
   <!--section2-->
   <div class="scrollify-section" data-section-name="2017" >
-    <!--<div class="box17">
-      <div class="text17">
-        <h4>Limmatplatz 2017</h4>
+        <!--<div class="box17">
+          <div class="text17">
+            <h4>Limmatplatz 2017</h4>
+          </div>
+        </div>-->
+
+
+    <!--<div class="grid-x margin-all">
+        <div class="cell large-12 limmatplatz17" >
+        </div>
       </div>
     </div>-->
 
-
-<div class="grid-x margin-all">
-    <div class="cell large-12 limmatplatz17" >
+    <div class="grid-x margin-all">
+      <div class="responsive-embed widescreen cell large-12 " >
+        <iframe src="https://player.vimeo.com/video/249821936?autoplay=1&loop=1&title=0&byline=0&portrait=0"
+        width="100vw" height="100vh" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+      </iframe>
+      </div>
     </div>
-  </div>
-</div>
 
+</div>
 
   <!--sections3-->
   <div class="scrollify-section" data-section-name="go" >
-    <div class="das-projekt">
-      <a href="#about"><h4>über das Projekt</h4></a>
+    <div id="das-projekt" class="das-projekt">
+      <h4><a href="#about">über das Projekt</a></h4>
     </div>
 
     <!--main-->
@@ -145,7 +149,7 @@
         <h4>on y va!</h4>
       </div>
       <div class="explore-icon" id="explore">
-        <img  src="assets/img/scroll_icon.svg" alt="scroll"></a>
+        <img src="assets/img/scroll_icon.svg" alt="scroll"></a>
       </div>
     </div>
   </div>
@@ -334,7 +338,7 @@
     <div class="scrollify-section" data-section-name="about">
 
       <div class="grid-x">
-        <div class="cell large-1 projekt-site-title" id="about">
+        <div class="cell large-1 projekt-site-title">
             <h3>Heimatkunde</h3>
         </div>
         <div class="cell large-3 projekt-site-text">
@@ -406,13 +410,7 @@
 <script src="assets/js/rellax.min.js"></script>
 
 <script type="application/javascript">
-  $(document).ready(function() {
-    $.scrollify({
-      section : ".scrollify-section",
-    });
 
-    var rellax = new Rellax('.rellax');
-  });
 </script>
 
 </body>
