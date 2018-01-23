@@ -250,40 +250,51 @@ text-align: right;
 }
 
 .title-mark {
-  width:35%!important;
-  margin:0 auto;
-  padding:4rem 0 0 0;
+  margin:0;
+  padding:0 0 0 0;
 }
 
-#home .title-mark{
-    transform: translate(0px,0px);
+.title-mark-route {
+  padding:2rem 0 0 1.89rem;
+  z-index: 2;
+}
+
+.title-mark-en {
+  z-index: 1;
+  padding: 0 0 0 0;
+
+}
+
+#home .title-mark-en{
+    transform: translate(0px,45px);
+}
+
+#home .title-mark-route{
+    transform: translate(0px,35px);
 }
 
 /* ------- Falls onScreen neuer Zustand Stil, hier kann irgendetwas verändert werden
 
  */
-section.onScreen .title-mark{
+
+ section.onScreen .title-mark-en{
+     opacity:1;
+ }
+
+ #home.onScreen .title-mark-en{
+     transform: translate(0px,30px);
+     transition:2s;
+ }
+
+section.onScreen .title-mark-route{
     opacity:1;
 }
 
-#home.onScreen .title-mark{
-    transform: translate(0px,-50px);
-    transition:5s;
+#home.onScreen .title-mark-route{
+    transform: translate(0px,50px);
+    transition:2s;
 }
 
-/*img .title-mark-animiert {
-width:10%!important;
-}*/
-
-/*.title-mark-animiert {
-  margin:0;
-  width:5rem!important;
-}
-
-.r-einzel {
-  width:3rem!important;
-}
-*/
 
 .gutter-links {
   padding-right:0.5rem;
@@ -300,12 +311,12 @@ width:10%!important;
 .explore-text {
   margin: 0 auto;
   text-align: center;
-  padding:3rem 0 0 0;
+  padding:0 0 0 0;
 }
 
 .explore-icon {
   margin:0 auto;
-  padding:0.1rem 0 10rem 0;
+  padding:0.1rem 0 0 0;
   width:1%;
   animation-name: arrow;
   animation-duration: 2s;
@@ -519,14 +530,6 @@ a:active {
 }
 
 
-/*
-wird nicht gebraucht
-.title-mark-small {
-  width:5%;
-  margin:0 auto;
-  padding:1rem 0 0 0;
-}*/
-
 .projekt-site-title {
   padding:20rem 7.5rem 2.9rem 0;
   writing-mode: vertical-rl;
@@ -571,11 +574,12 @@ padding:1rem 0 5rem 0;
   position:fixed;
   margin:auto 0;
   height: 3rem;
-  width: 19rem;
+  width: 14.4rem;
   align-items: center;
-  top:50%;
-  left:50%;
+  top:49%;
   font-size: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 
@@ -598,7 +602,7 @@ padding:1rem 0 5rem 0;
 	  box-sizing: border-box;
     height: 48px;
     font-weight:600;
-    padding:0.6rem 0 0 0;
+    padding:0.6rem 0 0 0.1rem;
 
 	}
 
@@ -607,14 +611,14 @@ padding:1rem 0 5rem 0;
     animation-timing-function: ease;
     display: inline-block;
 	  text-indent: 0;
-	  animation: wechsel 1s linear forwards; /* here you select the animation */
-      -webkit-animation: wechsel 1s linear forwards; /* here you select the animation */
+	  animation: wechsel 0.3s linear forwards; /* here you select the animation */
+      -webkit-animation: wechsel 0.3s linear forwards; /* here you select the animation */
 
-      -webkit-animation-delay:0.5s;
-         -moz-animation-delay:0.5s;
-          -ms-animation-delay:0.5s;
-           -o-animation-delay:0.5s;
-              animation-delay:0.5s;
+      -webkit-animation-delay:0.1s;
+         -moz-animation-delay:0.1s;
+          -ms-animation-delay:0.1s;
+           -o-animation-delay:0.1s;
+              animation-delay:0.1s;
 	}
 
   video {
